@@ -1,7 +1,7 @@
 # react-auth
 react app with passport authentication
 
-[Check out the app here](https://james-tv-guide.herokuapp.com/)
+[Check out the app here](https://flexapp.herokuapp.com/)
 
 ## Requirements
 * mongoDB
@@ -19,5 +19,6 @@ react app with passport authentication
 * reactstrap
 * animate css
 
-# james-tv-guide
+# flexapp
+# flexapp
 # flexapp
