@@ -1,11 +1,9 @@
 const router = require("express").Router();
 const userRoutes = require("./userRoutes");
-const tvlistRoutes = require("./tvlistRoutes");
 const accounts = require("./accounts");
 const items = require("./items");
 
 router.use("/users", userRoutes);
-router.use("/tvlist", tvlistRoutes);
 router.use("/accounts", accounts);
 router.use("/items", items);
 
