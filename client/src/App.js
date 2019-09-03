@@ -17,8 +17,8 @@ function App() {
         <TopNav />
         <Container>
           <Switch>
-            {/* <Route exact path="/" component={Home} /> */}
-            <Route
+            {/* <Route exact path="/" component={Home} />
+            <Route */}
               exact
               path="/signup"
               render={props => <Auth {...props} action="signup" />}

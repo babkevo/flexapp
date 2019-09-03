@@ -25,13 +25,5 @@ export default {
   // logs out the user
   logout: function() {
     return axios.get("/api/users/logout")
-  },
-
-
-  tvList: function(){
-    return axios.get("/api/tvlist/add")
-  },
-  list: function(){
-    return axios.get("/api/tvlist/all")
   }
 };
